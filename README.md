@@ -8,6 +8,9 @@ The **TOPO** framework is a deterministic cognitive engineering architecture des
 
 This repository is the result of an automated migration from Hugging Face to GitHub via Google Colab. It packages certified zero-forgetting vision models (such as `frankmorales2020/topo-gemma-4-e4b-vision-13tasks`), splits large weight files (`pytorch_model.bin`) into 50MB raw chunks (`pytorch_model.bin.part*`) to bypass Git LFS pointer constraints, and includes scripts to seamlessly reconstruct and run multi-task inference locally.
 
+FULL CXODE: https://github.com/frank-morales2020/AST/blob/main/HF_TO_Github.ipynb
+
+
 ---
 
 ## Core Architectural Pillars
