@@ -10,6 +10,10 @@ This repository is the result of an automated migration from Hugging Face to Git
 
 FULL CODE: https://github.com/frank-morales2020/AST/blob/main/HF_TO_Github.ipynb
 
+frankmorales2020/topo-gemma-4-e4b-vision-13tasks: https://huggingface.co/frankmorales2020/topo-gemma-4-e4b-vision-13tasks
+
+
+
 
 ---
 
