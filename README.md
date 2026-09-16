@@ -6,7 +6,7 @@ The **TOPO** framework is a deterministic cognitive engineering architecture des
 
 ## Repository Migration & Architecture
 
-This repository is the result of an automated migration from Hugging Face to GitHub via Google Colab[cite: 2]. It packages certified zero-forgetting vision models (such as `frankmorales2020/topo-gemma-4-e4b-vision-13tasks`), splits large weight files (`pytorch_model.bin`) into 50MB raw chunks (`pytorch_model.bin.part*`) to bypass Git LFS pointer constraints, and includes scripts to seamlessly reconstruct and run multi-task inference locally[cite: 2].
+This repository is the result of an automated migration from Hugging Face to GitHub via Google Colab. It packages certified zero-forgetting vision models (such as `frankmorales2020/topo-gemma-4-e4b-vision-13tasks`), splits large weight files (`pytorch_model.bin`) into 50MB raw chunks (`pytorch_model.bin.part*`) to bypass Git LFS pointer constraints, and includes scripts to seamlessly reconstruct and run multi-task inference locally.
 
 ---
 
@@ -21,7 +21,7 @@ This repository is the result of an automated migration from Hugging Face to Git
 
 ## Key Components
 
-1. **TOPO-2026 Certification Suite:** Multi-task evaluation and metric certification protocols (covering 13 distinct vision tasks) designed to validate model stability and robustness[cite: 2].
+1. **TOPO-2026 Certification Suite:** Multi-task evaluation and metric certification protocols (covering 13 distinct vision tasks) designed to validate model stability and robustness.
 2. **Deterministic Governance (H2E Sheriff):** Algorithmic boundary enforcement guaranteeing predictable runtime execution and safety alignment.
 3. **TOPO-RLHF:** Seamless integration of topological permanence with Reinforcement Learning from Human Feedback, preventing reward hacking and policy drift.
 
